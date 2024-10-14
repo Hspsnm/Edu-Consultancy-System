@@ -1,1 +1,5 @@
-The project aims to develop a system where students/parents can log in or sign up, book appointments with consultants, and view the appointment status, ensuring smooth communication and planning between the parties​
+A Consultant who helps parents/students and organizations with educational planning.
+To communicate with Student/parents.
+Student/parents can Login/Signup to application.
+Student/Parent should be able to take appointment with consultants.
+Student/Parent should be able view appointment status.
