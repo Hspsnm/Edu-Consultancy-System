@@ -1,0 +1,1 @@
+The project aims to develop a system where students/parents can log in or sign up, book appointments with consultants, and view the appointment status, ensuring smooth communication and planning between the parties​
