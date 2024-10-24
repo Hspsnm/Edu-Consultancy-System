@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<div class="main-container">
+
+
+    <div class="form-box">
+        
+        <form id="registerForm" action="dashboard" method="post" >
+            <img src="download(1).png" alt="profile-icon" class="profile-icon">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id=""  name="username" placeholder="Enter Username" required>
+                <span class="error-message">Username is required</span>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                <span class="error-message" >Email is required</span>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password" minlength="8" required>
+                
+                <span class="error-message" >Password is required</span>
+                
+            </div>
+            <button type="submit" href="dashboard" routerLink="/dashboard" class="btn" >Sign Up</button>
+            <p><a href="login" routerLink="/login" routerLinkActive="active">Already Registered? Click Here to Login</a></p>
+        </form>
+    </div>
+
+</div>

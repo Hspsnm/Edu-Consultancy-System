@@ -1,0 +1,18 @@
+
+<div class="form-container">
+    <form id="loginForm" action="dashboard"  method="post">
+        <img src="profile-icon.png" alt="profile-icon" class="profile-icon">
+        <div class="input-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required>
+            <span class="error-message">Email is required</span>
+        </div>
+        <div class="input-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter Password" required>
+            <span class="error-message">Password is required</span>
+        </div>
+        <button type="submit" href="dashboard" routerLink="/dashboard" class="btn">Log in</button>
+    </form>
+</div>
+
